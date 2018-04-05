@@ -27,6 +27,16 @@
     #page_sidebar {
         .widget {
             list-style-type: none;
+
+            .text-widget {
+               h2.headline {
+                  font-size: 36px;
+               }
+            }
+        }
+
+        .headline {
+           font-size: 36px !important;
         }
         .widget_categories {
             ul {
