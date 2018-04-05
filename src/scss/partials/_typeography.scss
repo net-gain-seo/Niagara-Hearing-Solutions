@@ -1,0 +1,53 @@
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	margin-bottom: .75em;
+	font-family: Oswald, arial;
+}
+
+h1{
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.75rem;
+}
+h4{
+}
+h5{
+
+}
+h6{
+
+}
+
+p{
+	font-family: Roboto, arial;
+	font-weight: normal;
+}
+
+ul{
+	    padding: 0 0 0 40px;
+	li{
+		font-family: Roboto, arial, sans-serif;
+    line-height: 1.6em;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+	}
+}
+
+ol{
+	li{
+
+	}
+}
+a{
+	color: $secondary-color;
+	cursor: pointer;
+	&:hover{
+		color: $secondary-color;
+		cursor: pointer;
+		text-decoration: underline;
+	}
+}

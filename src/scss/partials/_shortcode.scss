@@ -1,0 +1,108 @@
+.book_now_banner{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 1px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $secondary-color;
+      text-decoration: none;
+      border: 1px solid $secondary-color;
+  }
+}
+.book_now_banner .book_now_text {
+    color: $white-text;
+    font-size: 24px;
+    float: right;
+    margin-top: 3px;
+}
+.info_box{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 1px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $secondary-color;
+      text-decoration: none;
+      border: 1px solid $secondary-color;
+  }
+}
+.infotitle {
+    color: $white-text;
+    font-size: 24px;
+    float: right;
+    margin-top: 3px;
+}
+
+
+
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.HearingForm h2 {
+    color: $white-text;
+    font-size: 24px;
+}
+.HearingForm{
+  background-color: $primary-color;
+  color: $white-text;
+
+  p{
+    color: $white-text
+  }
+  a.button {
+      padding: 5px 20px 5px 20px;
+      margin-top: 5px;
+      display: inline-block;
+  }
+  .button {
+      background-color: $secondary-color;
+      color: $white-text;
+      border: 1px solid $secondary-color;
+      border-radius: 0px;
+  }
+  .button:hover {
+      background-color: $white-text;
+      color: $secondary-color;
+      text-decoration: none;
+      border: 1px solid $secondary-color;
+  }
+}
+.HearingForm .col{
+  margin-bottom: 10px;
+}
+
+
+.PromotionContent{
+  
+}

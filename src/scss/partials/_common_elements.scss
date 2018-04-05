@@ -1,0 +1,21 @@
+.book-appointment {
+    text-transform: uppercase;
+
+    p {
+        font-size: 1.5rem;
+        color: $white-text;
+        margin: 4px 0 0;
+    }
+    .col-md-8 {
+        text-align: right;
+    }
+    .col-md-4 {
+        text-align: left;
+    }
+    .btn-secondary {
+        padding: 5px 20px 5px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 0;
+    }
+}

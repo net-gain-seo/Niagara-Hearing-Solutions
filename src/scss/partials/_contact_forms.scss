@@ -1,0 +1,263 @@
+input[type="text"], input[type="email"], input[type="number"], textarea, select {
+    padding: 10px;
+    background-color: white;
+    font-family: inherit;
+    font-size: 20px;
+    color: #333;
+    max-width: 100%;
+    border: 0px solid;
+}
+
+
+
+.form-btn-secondary {
+    background: $secondary-color;
+    color: $white-text;
+    padding: 15px 40px 15px 40px;
+    font-weight: 300;
+    border: 1px solid $secondary-color;
+    border-radius: 0;
+    margin-top: 15px;
+
+    &:hover {
+        cursor: pointer;
+        background: $white-text;
+        color: $secondary-color;
+    }
+}
+
+.contactsection{
+  h1{
+    margin-bottom: 40px!important;
+    color: white;
+  }
+  .google {
+      transform: scale(0.66);
+      -webkit-transform: scale(0.66);
+      transform-origin: 0 0;
+      -webkit-transform-origin: 0 0;
+  }
+  .button{
+    font-size: 16px;
+    margin-left: -15px;
+    border-width: 2px;
+    line-height: 1em;
+    border-radius: 3px;
+    color: #fff;
+    border-color: #fff;
+    display: inline-block;
+    float: left;
+    padding-top: 15px;
+    padding-right: 30px;
+    cursor: pointer;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.49);
+    border: 2px solid;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .button:hover {
+      border-color: rgba(255,255,255,0.498039);
+      background-color: rgba(0,0,0,0.49);
+  }
+}
+
+.contactpage, .sidebar{
+  form{
+    p{
+      margin-bottom: 10px;
+    }
+  }
+  label{
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    line-height: 1.2em;
+    color: rgb(96, 96, 96);
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 400;
+  }
+  input[type="text"], input[type="email"], input[type="number"], textarea, select {
+      border-radius: 3px;
+      border-width: 1px;
+      border-color: rgb(204, 204, 204);
+      color: rgb(69, 69, 69);
+      font-size: 14px;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+      margin-left: 0px;
+      width: 100%;
+  }
+  .button{
+    font-size: 16px;
+    border-width: 2px;
+    margin-top: 20px;
+    line-height: 1em;
+    color: #fff;
+    border-color: #fff;
+    display: inline-block;
+    float: left;
+    padding-top: 15px;
+    padding-right: 30px;
+    cursor: pointer;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    font-family: Oswald, arial;
+    text-align: center;
+    background-color: $primary-color;
+    border: 2px solid $primary-color;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 5px;
+  }
+  .button:hover {
+    background: #fff;
+    color: #42144b;
+    border: 2px solid #42144b;
+  }
+}
+.contactinfo{
+  text-align: center;
+  margin-top: 50px;
+  p{
+    font-family: Roboto;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+  }
+  span{
+    font-size: 22px;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    margin-bottom: 5px;
+  }
+}
+.request-appointment-form {
+    padding: 40px 0 30px;
+    .bannerForm {
+        div {
+            width: 19%;
+            display: inline-block;
+            float: left;
+            margin: 0 0.5%;
+        }
+    }
+    input {
+        padding: 20px 0;
+        text-indent: 20px;
+
+        &[type="submit"] {
+            margin-top: 0;
+            margin-left: 20px;
+            width: 200px;
+            text-indent: 0;
+            padding: 22px 0;
+        }
+    }
+    .g-recaptcha {
+        > div {
+            transform: scale(0.75);
+            transform-origin: 0 100%;
+            margin-top: -18px;
+        }
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(0.65);
+                margin-top: -17px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991px) {
+    .request-appointment-form {
+        .bannerForm {
+            > div {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+        .g-recaptcha {
+            > div {
+                transform: translateX(62%) scale(1);
+                margin-top: 1px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 905px) and (min-width: 768px) {
+    .main-captcha {
+        transform-origin: 0 0;
+        transform: scale(0.7);
+    }
+    .form-btn-secondary {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: translateX(33%) scale(1);
+            }
+        }
+    }
+}
+@media only screen and (max-width: 575px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(1);
+
+                iframe {
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 390px) {
+    .request-appointment-form {
+        .g-recaptcha {
+            > div {
+                transform: scale(0.66);
+                margin-bottom: 10px;
+                margin-left: -2px;
+            }
+        }
+        .bannerForm {
+            > div {
+                text-align: left;
+                &:nth-child(4) {
+                    margin-top: -27px;
+                }
+            }
+        }
+        input {
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            margin-left: 0;
+        }
+    }
+}
+@media only screen and (max-width: 350px) {
+    .main-captcha {
+        transform-origin: 0 0;
+        transform: scale(0.8);
+    }
+}

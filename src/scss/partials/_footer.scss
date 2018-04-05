@@ -1,0 +1,48 @@
+footer {
+    #footerTop {
+        background: $primary-color-dark;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(41, 13, 46);
+        background-image: url('images/black-dots.png');
+        background-repeat: repeat;
+        background-size: auto;
+        background-position: 0% 0%;
+        p{
+          font-size: 14px;
+          line-height: 1.6em;
+          margin-bottom: 20px;
+          color: $secondary-color;
+          font-family: Roboto;
+          text-align: left;
+          a{
+            color: white;
+            font-weight: 500;
+          }
+        }
+
+        .col{
+          border-left: 1px solid $primary-color;
+        }
+    }
+    #footerBottom {
+        background: black;
+
+        #footer-navigation {
+            text-transform: uppercase;
+        }
+        #footerCopyInfo {
+
+            > div {
+                float: left;
+            }
+            #footercopy {
+                margin-bottom: 0;
+                text-align: right;
+                color: rgb(96, 96, 96);
+                padding: 20px 0px;
+                font-size: 16px;
+            }
+        }
+    }
+}

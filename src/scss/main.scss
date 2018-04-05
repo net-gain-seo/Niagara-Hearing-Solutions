@@ -1,0 +1,47 @@
+@import "partials/mixins";
+@import "partials/blog";
+@import "partials/contact_forms";
+@import "partials/flex";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/hearing_quiz";
+@import "partials/misc";
+@import "partials/navbar";
+@import "partials/sliders";
+@import "partials/navbar";
+@import "partials/typeography";
+@import "partials/common_elements";
+@import "partials/shortcode";
+@import "partials/responsive";
+
+body{
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+p {
+    font-family: Roboto, arial, sans-serif;
+    line-height: 1.6em;
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+b, strong {
+    font-weight: bold;
+}
+em{
+  font-style: italic;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.col *:last-child {
+    margin-bottom: 0;
+}

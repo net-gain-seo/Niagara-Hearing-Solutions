@@ -1,0 +1,171 @@
+body header {
+    background: transparent;
+    padding: 0px;
+    margin-bottom: 0px;
+    z-index: 100;
+    position: relative;
+}
+header #socialIcons {
+    float: right;
+    margin-top: -2px;
+    margin-left: 0px!important;
+    display: inline-block;
+}
+header #socialIcons a {
+    float: none;
+    margin-left: 10px;
+}
+#headerTop {
+    .container {
+      margin-top: 10px;
+    }
+    #logo {
+      display: block;
+      margin: auto;
+      float: none;
+      width: 100%;
+      text-align: center;
+    }
+    .phonenumber{
+        margin-bottom: 0px;
+        line-height: 1;
+      a{
+        font-size: 35px;
+        text-align: center;
+        line-height: 1.2em;
+        color: $primary-color;
+        font-family: Oswald;
+        width: 100%;
+      }
+    }
+    .email{
+        margin-bottom: 0px;
+        line-height: 1;
+      a{
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.6em;
+        color: rgb(39, 39, 39);
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+      }
+    }
+    .facebook{
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      display: inline-block;
+      a{
+        float: none;
+        img{
+          width: 45px;
+          border: 0px;
+          border-radius: 40px;
+          background-color: #aa915c;
+          &:hover{
+            background-color: white;
+          }
+        }
+      }
+    }
+}
+#headerBottom {
+    background: $primary-color;
+    position: relative;
+}
+#quizButton {
+  padding: 15px 40px 15px 40px;
+    background-color: $primary-color;
+    color: $white-text;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    float: right;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+    border: 1px solid $primary-color;
+}
+#quizButton:hover {
+    background-color: $white-text;
+    color: $secondary-color;
+    border: 1px solid $secondary-color;
+}
+#callToAction {
+    position: relative;
+    clear: both;
+    margin-top: 10px;
+    text-align: center;
+    float: none;
+    width: 100%;
+    font-size: 18px;
+    color: black;
+}
+.extras {
+    text-align: center;
+}
+
+@media (max-width: $screen-lg-max) {
+  #headerBottom {
+      background: $primary-color;
+      position: relative;
+      padding: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+    #headerTop .left {
+        float: none;
+        margin: auto;
+        width: 100%;
+        display: -webkit-inline-box;
+    }
+    #headerTop #logo {
+        display: inline-block;
+        margin: 40px 0 10px;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    #headerTop .right {
+        float: none;
+        margin: auto;
+        display: block;
+        max-width: 375px;
+    }
+    .contactButtons {
+        text-align: center;
+
+        #quizButton {
+            float: none;
+            margin-left: 0;
+        }
+    }
+    .extras {
+        text-align: center;
+    }
+    #socialIcons {
+        margin-right: 39px;
+    }
+    #callToAction {
+        float: none;
+        display: block;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 390px) {
+    header {
+        #quizButton {
+            white-space: pre-wrap;
+        }
+        #socialIcons {
+            float: none;
+            display: block;
+            margin-right: 0;
+            margin-top: 15px;
+        }
+    }
+}
