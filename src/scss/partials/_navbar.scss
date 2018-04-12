@@ -27,12 +27,15 @@
                     text-decoration: none;
                     color: #bab9b9;
                     background: $primary-color-dark;
+                    .dropdown-menu {
+                        display: block;
+                    }
                 }
             }
             .dropdown-menu {
                 display: none;
                 position: absolute;
-                top: 98%;
+                top: 97%;
                 left: 0;
                 background: $primary-color;
                 padding: 0;
@@ -42,8 +45,11 @@
                 li {
                     display: block;
                     list-style-type: none;
+                    background: $primary-color;
                     white-space: nowrap;
                     font-family: roboto, arial, sans-serif;
+                    margin-bottom: 0px;
+                    font-size: 16px;
 
                     &:hover {
                         background: $primary-color-dark;
@@ -52,7 +58,12 @@
                     a {
                         text-transform: none;
                         display: block;
+                        background: $primary-color;
                         padding: 10px;
+                        font-size: 16px;
+                        &:hover{
+                          background: $primary-color-dark;
+                        }
                     }
                 }
             }
@@ -60,9 +71,11 @@
             &:hover a{
               background: $primary-color-dark;
               color: #bab9b9;
-                .dropdown-menu {
-                    display: block;
-                }
+            }
+            &:hover{
+              .dropdown-menu {
+                  display: block;
+              }
             }
             &.current-menu-parent a{
               background: $primary-color-dark;
@@ -75,6 +88,7 @@
         }
     }
 }
+
 .navbar-toggleable-lg .navbar-nav .nav-link {
     padding-right: 1rem;
     padding-left: 1rem;
