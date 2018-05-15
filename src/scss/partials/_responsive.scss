@@ -113,6 +113,22 @@
     }
 }
 
+@media only screen and (max-width: 630px) {
+   img {
+      &.alignleft, &.alignright {
+         float: none;
+         display: block;
+         margin: 0 auto;
+         width: 100%;
+         height: auto;
+      }
+   }
+
+   #featured-image {
+      max-height: 490px;
+   }
+}
+
 @media only screen and (max-width: $screen-xsm-max) {
     #headerTop .right {
         float: none;
